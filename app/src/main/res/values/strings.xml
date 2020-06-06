@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Qr</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_history">History</string>
+    <string name="menu_generate">Generate</string>
+    <string name="menu_settings">Settings</string>
+</resources>

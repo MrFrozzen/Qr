@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qr сканер</string>
+    <string name="menu_scan">Сканер</string>
+    <string name="menu_history">История</string>
+    <string name="menu_generate">Генерация</string>
+    <string name="menu_settings">Настройки</string>
+</resources>
