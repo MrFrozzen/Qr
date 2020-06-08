@@ -3,6 +3,23 @@
     <string name="app_name">Qr сканер</string>
     <string name="menu_scan">Сканер</string>
     <string name="menu_history">История</string>
+    <string name="menu_favourites">Избранное</string>
     <string name="menu_generate">Генерация</string>
     <string name="menu_settings">Настройки</string>
+
+    <string name="recent_scanned">История сканирования</string>
+    <string name="about_app">О приложении</string>
+    <string name="qr_code_scanner">Сканер QR</string>
+    <string name="by_mrfrozzen">By MrFrozzen</string>
+    <string name="recent_scanned_results">Результат последнего сканирования</string>
+    <string name="delete">Удалить</string>
+    <string name="want_to_delete">Вы действительно хотите удалить этот результат?</string>
+    <string name="cancel">Отмена</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="clear_all_result">Вы уверены, что хотите удалить все результаты сканирования?</string>
+    <string name="clear">Очистить</string>
+    <string name="favourites_scanned_results">Избранные результаты сканирования</string>
+    <string name="grant_permissions">Предоставить разрешения</string>
+    <string name="we_need_permission">Нам нужно разрешение камеры для сканирования QR-кодов</string>
+    <string name="grant">Разрешение</string>
 </resources>

@@ -17,8 +17,8 @@
         />
     <item
         android:id="@+id/generate"
-        android:icon="@drawable/ic_qr"
-        android:title="@string/menu_generate"
+        android:icon="@drawable/ic_star"
+        android:title="@string/menu_favourites"
         app:cnb_iconColor="@color/generate"
         />
     <item
