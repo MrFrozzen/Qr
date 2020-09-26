@@ -5,7 +5,8 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="scan">#5B37B7</color>
     <color name="history">#C9379D</color>
-    <color name="generate">#E6A919</color>
+    <color name="favorites">#E6A919</color>
+    <color name="generate">#64E71A</color>
     <color name="settings">#1194AA</color>
 
     <color name="white">#ffffff</color>

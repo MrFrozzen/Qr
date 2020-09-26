@@ -16,9 +16,15 @@
         app:cnb_iconColor="@color/history"
         />
     <item
-        android:id="@+id/generate"
+        android:id="@+id/favorites"
         android:icon="@drawable/ic_star"
         android:title="@string/menu_favourites"
+        app:cnb_iconColor="@color/favorites"
+        />
+    <item
+        android:id="@+id/generate"
+        android:icon="@drawable/ic_qr"
+        android:title="@string/menu_generate"
         app:cnb_iconColor="@color/generate"
         />
 <!--    <item

@@ -17,6 +17,6 @@ fun View.inVisible() {
 }
 
 fun Calendar.toFormattedDisplay(): String {
-    val simpleDateFormat = SimpleDateFormat("dd-mm-yyyy hh:mm a", Locale.US)
+    val simpleDateFormat = SimpleDateFormat.getDateTimeInstance();
     return simpleDateFormat.format(this.time)
 }

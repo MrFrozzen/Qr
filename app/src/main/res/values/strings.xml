@@ -22,5 +22,6 @@
     <string name="we_need_permission">We need camera permission to scan QR codes. Go to App Settings and manage
         permissions
     </string>
+    <string name="generate_btn">Generate QR</string>
     <string name="grant">Grant</string>
 </resources>

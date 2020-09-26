@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.ismaeldivita.chipnavigation.ChipNavigationBar
 import ru.mrfrozzen.qrcode.R
+import ru.mrfrozzen.qrcode.ui.generate.QRGenerateFragment
 import ru.mrfrozzen.qrcode.ui.qrscanner.QRScannerFragment
 import ru.mrfrozzen.qrcode.ui.scanner_history.ScannedHistoryFragment
 
@@ -31,9 +32,14 @@ class MainActivity : AppCompatActivity() {
                         ScannedHistoryFragment.newInstance(ScannedHistoryFragment.ResultListType.ALL_RESULT)
                     openFragment(fragment)
                 }
-                R.id.generate -> {
+                R.id.favorites -> {
                     val fragment =
                         ScannedHistoryFragment.newInstance(ScannedHistoryFragment.ResultListType.FAVOURITE_RESULT)
+                    openFragment(fragment)
+                }
+                R.id.generate -> {
+                    val fragment =
+                        QRGenerateFragment()
                     openFragment(fragment)
                 }
             }

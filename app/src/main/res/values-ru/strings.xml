@@ -22,4 +22,5 @@
     <string name="grant_permissions">Предоставить разрешения</string>
     <string name="we_need_permission">Нам нужно разрешение камеры для сканирования QR-кодов</string>
     <string name="grant">Разрешение</string>
+    <string name="generate_btn">Сгенерировать QR</string>
 </resources>
