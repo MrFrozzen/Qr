@@ -22,5 +22,20 @@
     <string name="grant_permissions">Предоставить разрешения</string>
     <string name="we_need_permission">Нам нужно разрешение камеры для сканирования QR-кодов</string>
     <string name="grant">Разрешение</string>
-    <string name="generate_btn">Сгенерировать QR</string>
+
+    <string name="gen_email">Email/Url</string>
+    <string name="gen_vcard">VCard</string>
+    <string name="gen_genqr">Сгенерировать QR-код</string>
+    <string name="gen_savegalery">Сохранить в галерею</string>
+    <string name="gen_entertext">Введите текст</string>
+    <string name="gen_vcard_name">Имя</string>
+    <string name="gen_vcard_email">Email</string>
+    <string name="gen_vcard_address">Адрес</string>
+    <string name="gen_vcard_phone">Телефон</string>
+    <string name="gen_vcard_website">Сайт</string>
+    <string name="gen_toast_all_fields_empty">Все поля не могут быть пустыми</string>
+    <string name="gen_toast_this_field_is_required">Это поле обязательно к заполнению</string>
+    <string name="gen_toast_external_storage_permission_needed">Требуется разрешение на внешнее хранилище. Пожалуйста, дайте разрешение в настройках приложения.</string>
+    <string name="gen_toast_QR_Image_saved">QR сохранен в директорию: </string>
+    <string name="gen_toast_ERROR_SAVING_IMAGE">ОШИБКА СОХРАНЕНИЯ</string>
 </resources>

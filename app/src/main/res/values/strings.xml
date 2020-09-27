@@ -22,6 +22,21 @@
     <string name="we_need_permission">We need camera permission to scan QR codes. Go to App Settings and manage
         permissions
     </string>
-    <string name="generate_btn">Generate QR</string>
     <string name="grant">Grant</string>
+
+    <string name="gen_email">Email/Url</string>
+    <string name="gen_vcard">VCard</string>
+    <string name="gen_genqr">Generate QR code</string>
+    <string name="gen_savegalery">Save to gallery</string>
+    <string name="gen_entertext">Enter text here</string>
+    <string name="gen_vcard_name">Name</string>
+    <string name="gen_vcard_email">Email Address</string>
+    <string name="gen_vcard_address">Address</string>
+    <string name="gen_vcard_phone">Phone</string>
+    <string name="gen_vcard_website">Website</string>
+    <string name="gen_toast_all_fields_empty">All fields cannot be empty</string>
+    <string name="gen_toast_this_field_is_required">This field is required</string>
+    <string name="gen_toast_external_storage_permission_needed">External Storage permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="gen_toast_QR_Image_saved">QR Image saved into folder</string>
+    <string name="gen_toast_ERROR_SAVING_IMAGE">ERROR SAVING IMAGE</string>
 </resources>
