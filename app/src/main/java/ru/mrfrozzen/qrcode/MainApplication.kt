@@ -1,12 +1,17 @@
 package ru.mrfrozzen.qrcode
 
 import android.app.Application
-import com.facebook.stetho.Stetho
+import com.google.firebase.analytics.FirebaseAnalytics
+
+
+
 
 class MainApplication : Application() {
 
+    private var mFirebaseAnalytics: FirebaseAnalytics? = null
+
     override fun onCreate() {
         super.onCreate()
-        Stetho.initializeWithDefaults(this)
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
     }
 }
