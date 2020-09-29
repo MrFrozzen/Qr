@@ -16,8 +16,12 @@ import ru.mrfrozzen.qrcode.ui.dialogs.QrCodeResultDialog
 import kotlinx.android.synthetic.main.fragment_qrscanner.view.*
 import me.dm7.barcodescanner.zbar.Result
 import me.dm7.barcodescanner.zbar.ZBarScannerView
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
 
 class QRScannerFragment : Fragment(), ZBarScannerView.ResultHandler {
+
+    lateinit var mAdView : AdView
 
     companion object {
 

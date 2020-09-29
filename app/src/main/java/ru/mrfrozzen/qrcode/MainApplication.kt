@@ -14,4 +14,5 @@ class MainApplication : Application() {
         super.onCreate()
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this)
     }
+
 }

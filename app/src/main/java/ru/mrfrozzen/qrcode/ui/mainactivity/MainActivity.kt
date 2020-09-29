@@ -3,17 +3,36 @@ package ru.mrfrozzen.qrcode.ui.mainactivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.RequestConfiguration
 import com.ismaeldivita.chipnavigation.ChipNavigationBar
 import ru.mrfrozzen.qrcode.R
 import ru.mrfrozzen.qrcode.ui.generate.QRGenerateFragment
 import ru.mrfrozzen.qrcode.ui.qrscanner.QRScannerFragment
 import ru.mrfrozzen.qrcode.ui.scanner_history.ScannedHistoryFragment
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var mAdView : AdView
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        MobileAds.initialize(this) {}
+
+        mAdView = findViewById(R.id.adView)
+
+            // TestDevice
+        val testDeviceIds = listOf("ECB43FF4FEC70E712026992CA3A91CB4")
+        val configuration = RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+        MobileAds.setRequestConfiguration(configuration)
+
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
 
         val bottom_nav: ChipNavigationBar = findViewById(R.id.bottom_navigation)
 
